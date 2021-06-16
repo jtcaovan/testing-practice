@@ -1,5 +1,5 @@
-function reverseString() {
-
+function reverseString(string) {
+    return [...string].reverse().join('')
 }
 
-module.export = reverseString
+module.exports = reverseString
