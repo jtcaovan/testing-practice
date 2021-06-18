@@ -1,10 +1,5 @@
-function calculate(a, b) {
-    const calculator = {
-        'add': a + b,
-        'substract': a - b,
-        'multiply': a * b,
-        'divide': a / b
-    }
+const calculator = {
+    add: (num1, num2) => num1 + num2
 }
 
-module.exports = calculate
+module.exports = calculator
